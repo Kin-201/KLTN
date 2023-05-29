@@ -453,7 +453,7 @@ profile_to_pred_prep = train_copy_with_profile_to_pred_prep[train_copy_with_prof
 def make_prediction():
     # aws_access_key_id = os.environ.get('access_key')
     # aws_secret_access_key = os.environ.get('secret_access_key')
-    # # # connect to s3 bucket
+    # connect to s3 bucket
     client = boto3.client('s3', aws_access_key_id=st.secrets["access_key"],aws_secret_access_key=st.secrets["secret_access_key"]) # for s3 API keys when deployed on streamlit share
     # client = boto3.client('s3', aws_access_key_id=aws_access_key_id,aws_secret_access_key=aws_secret_access_key) # for s3 API keys when deployed on locally
 
