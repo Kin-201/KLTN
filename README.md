@@ -30,5 +30,4 @@ Conda environment
 ## Tổng quan về kết quả
 
 ### Ma trận tương quan
-![The San Juan Mountains are beautiful!](./datasets/correlation_matrix.png "San Juan Mountains")
-
+![The San Juan Mountains are beautiful!](./datasets/correlation_matrix.png "San Juan Mountains").
